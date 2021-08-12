@@ -307,3 +307,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+/vue-elcabinet/src/template/vlad/
