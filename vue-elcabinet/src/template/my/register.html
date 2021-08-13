@@ -8,15 +8,15 @@
           href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic">
     <link rel="stylesheet" href="fonts/PT Root UI Bold_Web/PT Root UI_Bold.css">
     <link rel="stylesheet" href="fonts/PT Root UI Medium_Web/PT Root UI_Medium.css">
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <body>
     <form class="auth-reg-card">
         <div class="auth-reg-card__container">
-            <header class="auth-reg-card__header">Войти
+            <header class="auth-reg-card__header">Зарегистрироваться
                 <p class="auth-reg-card__text">
-                    У вас еще нет аккаунта?
-                    <a href="#">Зарегистрироваться</a>
+                    У вас уже есть аккаунт?
+                    <a href="#">Войти</a>
                 </p>
             </header>
             <label class="auth-reg-card__label">
@@ -24,11 +24,25 @@
                 <input class="auth-reg-card__input" type="email">
             </label>
             <label class="auth-reg-card__label">
-                <span class="auth-reg-card__label-title">Введите пароль:</span>
+                <span class="auth-reg-card__label-title">Задайте пароль (минимум 6 символов):</span>
                 <input class="auth-reg-card__input" type="password">
             </label>
+            <label class="auth-reg-card__label">
+                <span class="auth-reg-card__label-title">Повторите пароль:</span>
+                <input class="auth-reg-card__input" type="password">
+            </label>
+            <div class="auth-reg-card__checkboxes">
+                <label class="auth-reg-card__checkbox">
+                    <input class="auth-reg-card__checkbox-input" type="radio">
+                    <span class="auth-reg-card__checkbox-title">Исполнитель</span>
+                </label>
+                <label class="auth-reg-card__checkbox">
+                    <input class="auth-reg-card__checkbox-input" type="radio">
+                    <span class="auth-reg-card__checkbox-title">Заказчик</span>
+                </label>
+            </div>
             <button class="auth-reg-card__btn">
-                <span class="auth-reg-card__btn-text">Войти</span>
+                <span class="auth-reg-card__btn-text">Зарегистрироваться</span>
             </button>
             <p class="auth-reg-card__restore-password">
                 Забыли пароль? <a href="#">Восстановить</a>

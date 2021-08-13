@@ -13,10 +13,6 @@ li {
     padding: 0;
 }
 
-input {
-    display: block;
-}
-
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -278,7 +274,7 @@ body {
 }
 
 /* login-reg forms style */
-.auth-card {
+.auth-reg-card {
     max-width: 600px;
     background-color: #c4c4c4;
     margin-left: auto;
@@ -287,26 +283,27 @@ body {
     border-radius: 10px;
 }
 
-.auth-card__container {
+.auth-reg-card__container {
     margin: 0px 100px;
     padding: 20px 0px;
 }
 
-.auth-card__header {
+.auth-reg-card__header {
     text-align: center;
     font-size: 24px;
 }
 
-.auth-card__label-title {
+.auth-reg-card__label-title {
     display: block;
 
 }
 
-.auth-card__text {
+.auth-reg-card__text {
     font-size: 16px;
 }
 
-.auth-card__input {
+.auth-reg-card__input {
+    display: block;
     max-width: 400px;
     margin: 5px 0px;
     width: 100%;
@@ -314,9 +311,10 @@ body {
     border-radius: 5px;
 }
 
-.auth-card__btn {
+.auth-reg-card__btn {
     display: block;
     margin: 50px auto 1px;
+    box-sizing: content-box;
 
     width: 150px;
     height: 30px;
@@ -329,11 +327,24 @@ body {
     cursor: pointer;
 }
 
-.auth-card__btn-text {
+.auth-reg-card__btn-text {
 
 }
 
-.auth-card__restore-password {
+.auth-reg-card__restore-password {
     text-align: center;
     margin: 50px 0px 0px;
+}
+
+.auth-reg-card__checkboxes {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.auth-reg-card__checkbox-input {
+
+}
+
+.auth-reg-card__checkbox {
+    width: 500px;
 }
